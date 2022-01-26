@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description='Script to extract motor output PWM
 
 parser.add_argument("-i", "--input_file", help="Input file. Should be a .log file from ardupilot flight controller")
 parser.add_argument("-o", "--output_file", help="Output file. Should be a csv at the location you want the output file")
-parser.add_argument("-n", "--num_motors", help="Number of motors you would like to extract, defaults = 4", default=4)
+parser.add_argument("-n", "--num_motors", help="(NOT IMPLEMENTED)Number of motors you would like to extract, defaults = 4", default=4)
 parser.add_argument("-v", "--verbose", help="Whether you would like to print all of the output WARNING prints entire generated file to console, defaults = False", default=False)
 
 arguments = parser.parse_args()
